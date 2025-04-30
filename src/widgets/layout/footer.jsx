@@ -108,13 +108,13 @@ Footer.defaultProps = {
     {
       name: "links",
       items: [
-        { name: "Sobre nos", path: "https://www.creative-tim.com/presentation" },
+        { name: "Sobre nós", path: "https://www.creative-tim.com/presentation" },
         {
           name: "Github",
           path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
         },
         {
-          name: "Free Products",
+          name: "Consultoria",
           path: "https://www.creative-tim.com/templates/free?ref=mtk",
         },
       ],
