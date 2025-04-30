@@ -106,10 +106,9 @@ Footer.defaultProps = {
   ],
   menus: [
     {
-      name: "useful links",
+      name: "links",
       items: [
-        { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-        { name: "Blog", path: "https://www.creative-tim.com/blog" },
+        { name: "Sobre nos", path: "https://www.creative-tim.com/presentation" },
         {
           name: "Github",
           path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
@@ -121,30 +120,26 @@ Footer.defaultProps = {
       ],
     },
     {
-      name: "other resources",
+      name: "Treinamentos",
       items: [
         {
-          name: "MIT License",
+          name: "Power BI",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
         },
         {
-          name: "Contribute",
+          name: "Power Apps",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
         },
         {
-          name: "Change Log",
+          name: "Python",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
-        },
-        {
-          name: "Contact Us",
-          path: "https://creative-tim.com/contact-us?ref=mtk",
-        },
+        }
       ],
     },
   ],
   copyright: (
     <>
-      Copyright © {year} HighCodeBR by{" "}
+      Copyright © {year} HighCodeBR 
       <a
         href=""
         target="_blank"
