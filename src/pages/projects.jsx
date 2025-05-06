@@ -38,10 +38,10 @@ export function Projects() {
           </div>
         </div>
       </div>
-      <section className="-mt-32 bg-white px-4 pb-20 pt-4">
+      <section className="-mt-24 bg-white px-4 pb-20 pt-4">
         <div className="container mx-auto">
           
-          <div className="mt-32 pt-20 flex flex-wrap items-center">
+          <div className="mt-24 pt-20 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
               <div style={{display:"none"}} className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
                 <FingerPrintIcon  className="h-8 w-8 text-white " />
@@ -77,7 +77,7 @@ export function Projects() {
           <PageTitle section="Projetos" heading="Conheça alguns de nossos projetos">
           </PageTitle>
          
-          <div className="mt-32 pt-2 flex flex-wrap items-center">
+          <div className="mt-24 pt-2 flex flex-wrap items-center">
               <div className="relatorio">
               <div className="demonstrationResume" style={{gap:'20px'}}>
                 <h1 style={{fontSize:'30px',fontWeight:'bold',color:"#303030;"}}>Concessionária</h1>
@@ -90,12 +90,12 @@ export function Projects() {
                       e desafios únicos enfrentados pelo setor automotivo.
                 </p>
               </div>
-              <iframe  title="Report Section"  height="573.5" src="https://app.powerbi.com/view?r=eyJrIjoiZWUyMjQ2MzYtNDg4MC00OThiLTkwMDItYjlhMGZjYjk4N2Q5IiwidCI6ImI5ZGY4YjEzLTE2NjgtNDlkYS04NDA4LTc1NzVlMjQ2MDIwNCJ9" frameBorder={0} allowFullScreen={true}></iframe>
+              <iframe  title="Report Section"  height="430.5" src="https://app.powerbi.com/view?r=eyJrIjoiZWUyMjQ2MzYtNDg4MC00OThiLTkwMDItYjlhMGZjYjk4N2Q5IiwidCI6ImI5ZGY4YjEzLTE2NjgtNDlkYS04NDA4LTc1NzVlMjQ2MDIwNCJ9" frameBorder={0} allowFullScreen={true}></iframe>
             </div>
           </div>
 
 
-          <div className="mt-32 pt-2 flex flex-wrap items-center">
+          <div className="mt-24 pt-2 flex flex-wrap items-center">
               <div className="relatorioInvertido">
               <div className="demonstrationResume" style={{gap:'20px'}}>
                 <h1 style={{fontSize:'30px',fontWeight:'bold',color:"#303030;"}}>Imóbiliárias</h1>
@@ -104,11 +104,23 @@ export function Projects() {
                 Este painel foi desenvolvido para oferecer uma visão completa e estratégica da carteira de imóveis e proprietários. Com análises detalhadas de disponibilidade, valores de aluguel, perfil dos donos e inadimplência de clientes por quantidade de imóveis, a solução permite acompanhar indicadores essenciais, identificar padrões de comportamento e tomar decisões mais rápidas e assertivas. Tudo em um único ambiente visual, dinâmico e fácil de interpretar.
                 </p>
               </div>
-              <iframe  title="Report Section"  height="450.5" src="https://app.powerbi.com/view?r=eyJrIjoiMDU3YTk0ZjctZWYwMS00OTc2LWI2NjItMDRkMDM0MzVmZjk1IiwidCI6Ijc4N2ZiZTU4LTNiYjItNGUyNi1iMTZjLWRhNjRmYmZhM2NlYSJ9" frameBorder={0} allowFullScreen={true}></iframe>
+              <iframe  title="Report Section"  height="430.5" src="https://app.powerbi.com/view?r=eyJrIjoiMDU3YTk0ZjctZWYwMS00OTc2LWI2NjItMDRkMDM0MzVmZjk1IiwidCI6Ijc4N2ZiZTU4LTNiYjItNGUyNi1iMTZjLWRhNjRmYmZhM2NlYSJ9" frameBorder={0} allowFullScreen={true}></iframe>
             </div>
           </div>
 
 
+
+          <div className="mt-28 pt-2 flex flex-wrap items-center">
+              <div className="relatorio">
+              <div className="demonstrationResume" style={{gap:'20px'}}>
+                <h1 style={{fontSize:'30px',fontWeight:'bold',color:"#303030;"}}>Análise Imóveis SP</h1>
+                <p style={{color:"#303030;"}}>
+                Este painel oferece uma visão estratégica do mercado imobiliário nas principais regiões de São Paulo — zonas Sul, Leste, Oeste e Norte — com dados atualizados sobre preços, localização, bairros, metragem, número de cômodos e muito mais. As informações são extraídas de diversas plataformas online por meio de técnicas de web scraping, garantindo amplitude e precisão nas análises. Ideal para estudos de mercado, definição de preços e identificação de oportunidades com base em dados reais e comparativos.
+                </p>
+              </div>
+              <iframe  title="Report Section"  height="430.5" src="https://app.powerbi.com/view?r=eyJrIjoiNmRiMzg2ZTUtODY4NS00YjJkLWFiMTMtMDIwZmJiYzhhMTQzIiwidCI6Ijc4N2ZiZTU4LTNiYjItNGUyNi1iMTZjLWRhNjRmYmZhM2NlYSJ9" frameBorder={0} allowFullScreen={true}></iframe>
+            </div>
+          </div>
 
 
         </div>
