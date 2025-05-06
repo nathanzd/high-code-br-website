@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+main{
+  background-color: white;
+}
+body {
+  font-family: 'Roboto';
+}
+li{
+  font-size: 14px;
+}
+.spacer{
+  height: 10vh;
+}
+@media (max-width: 450px) {
+  .spacer{
+    height: 12vh;
+  }
+}
+.relatorio{
+  flex-direction: row-reverse;
+  gap: 20px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.relatorioInvertido{
+  flex-direction: row;
+  gap: 20px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.relatorio iframe{
+  width: 50%;
+}
+.relatorioInvertido iframe{
+  width: 50%;
+}
+.demonstrationResume{
+  width: 50%;
+}
+@media (max-width: 700px) {
+  .relatorio{
+    flex-direction:column
+  }
+  .relatorio iframe{
+    width: 100%;
+  }
+  .demonstrationResume{
+    width: 100%;
+  }
+  .relatorioInvertido iframe{
+    width: 100%;
+  }
+  .relatorioInvertido{
+    flex-direction: column;
+   
+  }
+}
+.TextAndImageButtonWrapper{
+  display: flex;
+  justify-content: center;
+}
+.TextAndImageButton{
+  font-weight: bold;
+  margin: 15px 15px;
+  color: white;
+  background-color:#009ADA ;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  transition: all ease 0.4s;
+}
+.TextAndImageButton:hover{
+  transition: all ease 0.4s;
+  background-color: transparent;
+  color: #009ADA;
+
+}

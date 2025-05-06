@@ -19,7 +19,7 @@ export function Projects() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('/img/background-3.png')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('/img/background-1.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -51,99 +51,72 @@ export function Projects() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-               A HighCodeBR
+               Soluções personalizadas
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Fundada em 2025, a HighCodeBR nasceu para revolucionar a forma como empresas de todos os portes gerenciam seus dados e processos. Atuamos no mercado de tecnologia com soluções inteligentes e personalizadas, promovendo autonomia, eficiência e decisões estratégicas baseadas em dados.
+                Cada empresa é única — por isso, não acreditamos em soluções prontas. Desenvolvemos sistemas personalizados, alinhados ao seu modelo de negócio, garantindo flexibilidade e eficiência sob medida.
                 <br />
                 <br />
-                Especialistas em Power Platform, Power BI, desenvolvimento web, automação de processos e RPA, capacitamos empresas a dominarem suas informações e atingirem novos patamares de desempenho.
-                <br />
-                <br />
-                Com cursos práticos, consultorias especializadas e projetos sob medida, nosso compromisso é entregar inovação, agilidade e valor real para nossos clientes. Na HighCodeBR, acreditamos que transformar dados em crescimento é mais do que uma meta — é a nossa missão.
-              </Typography>
+                Soluções personalizadas oferecem mais que eficiência: elas se tornam uma vantagem competitiva real. Ao alinhar a tecnologia às particularidades do seu negócio, é possível ganhar agilidade, reduzir custos e se destacar no mercado com processos únicos e otimizados.
+              
+                 </Typography>
               <Button variant="filled">Contato</Button>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
-              <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
-                <CardHeader floated={false} className="relative h-56">
-                  <img
+            <img
                     alt="Card Image"
-                    src="/img/human_x_robot.jpg"
+                    src="/img/ilust_projects.jpg"
                     className="h-full w-full"
                   />
-                </CardHeader>
-                <CardBody>
-                  <Typography variant="small" color="blue-gray" className="font-normal">A melhor maneira de prever o futuro é criá-lo</Typography>
-                  <Typography
-                    variant="h5"
-                    color="blue-gray"
-                    className="mb-3 mt-2 font-bold"
-                  >
-                    Inove. Construa. Transforme.
-                  </Typography>
-                  <Typography className="font-normal text-blue-gray-500">
-                    Na HighCodeBR, moldamos o futuro unindo tecnologia, inteligência e visão estratégica.
-                  </Typography>
-                </CardBody>
-              </Card>
             </div>
           </div>
         </div>
       </section>
       <section className="px-4 pt-5 pb-24">
         <div className="container mx-auto">
-          <PageTitle section="Nosso Time" heading="Nossos especialistas">
-          Nossos especialistas unem experiência e inovação para criar soluções em Power Platform, Power BI e desenvolvimento web, impulsionando o crescimento dos nossos clientes.  
+          <PageTitle section="Projetos" heading="Conheça alguns de nossos projetos">
           </PageTitle>
-          <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-3">
-            {teamData.map(({ img, name, position, socials }) => (
-              <TeamCard
-                key={name}
-                img={img}
-                name={name}
-                position={position}
-                socials={
-                  <div className="flex items-center gap-2">
-                    {socials.map(({ color, name }) => (
-                      <IconButton key={name} color={color} variant="text">
-                        <i className={`fa-brands text-xl fa-${name}`} />
-                      </IconButton>
-                    ))}
-                  </div>
-                }
-              />
-            ))}
+         
+          <div className="mt-32 pt-2 flex flex-wrap items-center">
+              <div className="relatorio">
+              <div className="demonstrationResume" style={{gap:'20px'}}>
+                <h1 style={{fontSize:'30px',fontWeight:'bold',color:"#303030;"}}>Concessionária</h1>
+                <p style={{color:"#303030;"}}>
+                  Desenvolvemos este painel de controle com
+                  a finalidade específica de proporcionar uma experiência aprimorada na
+                    visualização dos relatórios de vendas e uma ampla gama de informações
+                    operacionais vitais para uma concessionária de veículos. Nosso compromisso
+                      em oferecer uma solução eficaz resultou em um painel que atende às demandas
+                      e desafios únicos enfrentados pelo setor automotivo.
+                </p>
+              </div>
+              <iframe  title="Report Section"  height="573.5" src="https://app.powerbi.com/view?r=eyJrIjoiZWUyMjQ2MzYtNDg4MC00OThiLTkwMDItYjlhMGZjYjk4N2Q5IiwidCI6ImI5ZGY4YjEzLTE2NjgtNDlkYS04NDA4LTc1NzVlMjQ2MDIwNCJ9" frameBorder={0} allowFullScreen={true}></iframe>
+            </div>
           </div>
+
+
+          <div className="mt-32 pt-2 flex flex-wrap items-center">
+              <div className="relatorioInvertido">
+              <div className="demonstrationResume" style={{gap:'20px'}}>
+                <h1 style={{fontSize:'30px',fontWeight:'bold',color:"#303030;"}}>Imóbiliárias</h1>
+                <p style={{color:"#303030;"}}>
+              
+                Este painel foi desenvolvido para oferecer uma visão completa e estratégica da carteira de imóveis e proprietários. Com análises detalhadas de disponibilidade, valores de aluguel, perfil dos donos e inadimplência de clientes por quantidade de imóveis, a solução permite acompanhar indicadores essenciais, identificar padrões de comportamento e tomar decisões mais rápidas e assertivas. Tudo em um único ambiente visual, dinâmico e fácil de interpretar.
+                </p>
+              </div>
+              <iframe  title="Report Section"  height="450.5" src="https://app.powerbi.com/view?r=eyJrIjoiMDU3YTk0ZjctZWYwMS00OTc2LWI2NjItMDRkMDM0MzVmZjk1IiwidCI6Ijc4N2ZiZTU4LTNiYjItNGUyNi1iMTZjLWRhNjRmYmZhM2NlYSJ9" frameBorder={0} allowFullScreen={true}></iframe>
+            </div>
+          </div>
+
+
+
+
         </div>
       </section>
       <section className="relative bg-white py-4 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Power Plattform" heading="Veja um pouco sobre nossas ferramentas">
-          A Power Platform reúne ferramentas poderosas para criar aplicativos, automatizar processos e transformar dados em insights. Com Power Apps, Power Automate e Power BI, é possível inovar, agilizar rotinas e impulsionar a tomada de decisões estratégicas.
-          </PageTitle>
-          <div className="mx-auto mt-20 mb-24  grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
-            {contactData.map(({ title,color, icon, description }) => (
-              <Card
-                key={title}
-                color="transparent"
-                shadow={false}
-                className="text-center text-blue-gray-900"
-              >
-                <div className={`mx-auto mb-6 grid h-14 w-14 place-items-center rounded-full ${color} shadow-lg shadow-gray-500/20`}>
-                  {React.createElement(icon, {
-                    className: "w-5 h-5 text-white",
-                  })}
-                </div>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  {title}
-                </Typography>
-                <Typography className="font-normal text-blue-gray-500">
-                  {description}
-                </Typography>
-              </Card>
-            ))}
-          </div>
+          
+  
           <PageTitle section="Contato" heading="Entre em contato">
             Preencha este formulario e nossa equipe entrará em contato em breve.
           </PageTitle>
