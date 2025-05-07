@@ -7,21 +7,21 @@ import {
 
 export const featuresData = [
   {
-    color: "cyan",
+    color: "blue",
     title: "Desenvolvimento",
     icon: CodeBracketIcon,
     description:
       "Desenvolvemos soluções digitais inovadoras para impulsionar o crescimento e a eficiência do seu negócio.",
   },
   {
-    color: "cyan",
+    color: "purple",
     title: "Consultoria",
     icon: CubeIcon,
     description:
       "Oferecemos consultoria estratégica para transformar desafios em resultados com tecnologia e inovação.",
   },
   {
-    color: "cyan",
+    color: "yellow",
     title: "Business Intelligence",
     icon: ChartBarSquareIcon,
     description:

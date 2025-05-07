@@ -115,7 +115,7 @@ Footer.defaultProps = {
         },
         {
           name: "Consultoria",
-          path: "https://www.creative-tim.com/templates/free?ref=mtk",
+          path: "/soon",
         },
       ],
     },
@@ -124,15 +124,15 @@ Footer.defaultProps = {
       items: [
         {
           name: "Power BI",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
+          path: "/soon",
         },
         {
           name: "Power Apps",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
+          path: "/soon",
         },
         {
           name: "Python",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
+          path: "/soon",
         }
       ],
     },

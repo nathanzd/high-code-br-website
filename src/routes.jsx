@@ -1,4 +1,4 @@
-import { Home, Profile, SignIn, SignUp, Projects } from "@/pages";
+import { Home, Profile, SignIn, SignUp, Projects, AboutUS, CoomingSoon } from "@/pages";
 
 export const routes = [
   {
@@ -13,20 +13,26 @@ export const routes = [
   },
   {
     name: "Sobre nós",
-    path: "/sign-in",
-    element: <SignIn />,
+    path: "/about",
+    element: <AboutUS />,
   },
   {
     name: "Demonstrações",
-    path: "/sign-up",
-    element: <SignUp />,
+    path: "/soon",
+    element: <CoomingSoon />,
   },
   {
     name: "Treinamentos",
-    href: "https://www.material-tailwind.com/docs/react/installation",
-    target: "_blank",
-    element: "",
+    path: "/soon",
+    element:  <CoomingSoon />,
   },
 ];
+
+/* {
+    name: "Treinamentos",
+    href: "https://www.material-tailwind.com/docs/react/installation",
+    target: "_blank",
+    element:  <CoomingSoon />,
+  },*/
 
 export default routes;

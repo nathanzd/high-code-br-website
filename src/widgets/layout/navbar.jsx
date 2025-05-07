@@ -71,8 +71,8 @@ export function Navbar({ brandName, routes, action }) {
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
           <a
-            href="https://www.material-tailwind.com/blocks?ref=mtkr"
-            target="_blank"
+            path="/about"
+            href="/about"
           >
             <Button variant="text" size="sm" color="white" fullWidth>
               Saiba Mais
